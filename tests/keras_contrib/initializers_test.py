@@ -1,4 +1,4 @@
-from keras import backend as K
+from tensorflow.keras import backend as K
 from keras_contrib import backend as KC
 from keras_contrib import initializers
 import pytest

@@ -1,6 +1,6 @@
 from __future__ import absolute_import
-from keras.optimizers import Optimizer
-from keras import backend as K
+from tensorflow.keras.optimizers import Optimizer
+from tensorflow.keras import backend as K
 
 
 class FTML(Optimizer):

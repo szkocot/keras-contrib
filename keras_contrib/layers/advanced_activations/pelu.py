@@ -1,6 +1,6 @@
-from keras.layers import Layer, InputSpec
-from keras import initializers, regularizers, constraints
-import keras.backend as K
+from tensorflow.keras.layers import Layer, InputSpec
+from tensorflow.keras import initializers, regularizers, constraints
+import tensorflow.keras.backend as K
 from keras_contrib.utils.test_utils import to_tuple
 
 

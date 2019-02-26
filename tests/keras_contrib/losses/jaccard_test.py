@@ -2,7 +2,7 @@ import pytest
 
 from keras_contrib.losses import jaccard_distance
 from keras_contrib.utils.test_utils import is_tf_keras
-from keras import backend as K
+from tensorflow.keras import backend as K
 import numpy as np
 
 

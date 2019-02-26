@@ -2,8 +2,8 @@ from __future__ import print_function
 import numpy as np
 from keras_contrib.tests import optimizers
 from keras_contrib.optimizers import lars
-from keras.models import Sequential
-from keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 
 
 def test_base_lars():

@@ -9,12 +9,12 @@ from __future__ import division
 
 import numpy as np
 
-from keras import backend as K
-from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping
-from keras.datasets import cifar10
-from keras.optimizers import Adam
-from keras.preprocessing.image import ImageDataGenerator
-from keras.utils import np_utils
+from tensorflow.keras import backend as K
+from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping
+from tensorflow.keras.datasets import cifar10
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.utils import np_utils
 from keras_contrib.applications import DenseNet
 
 batch_size = 64

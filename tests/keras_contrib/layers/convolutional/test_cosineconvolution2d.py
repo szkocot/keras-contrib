@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
-from keras import backend as K
-from keras.models import Sequential
+from tensorflow.keras import backend as K
+from tensorflow.keras.models import Sequential
 from numpy.testing import assert_allclose
 
 from keras_contrib.utils.test_utils import layer_test

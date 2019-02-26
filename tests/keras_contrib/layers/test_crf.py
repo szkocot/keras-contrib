@@ -3,9 +3,9 @@ import numpy as np
 import os
 from numpy.testing import assert_allclose
 
-from keras.layers import Embedding
-from keras.models import Sequential
-from keras.models import load_model
+from tensorflow.keras.layers import Embedding
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import load_model
 from keras_contrib.losses import crf_loss
 from keras_contrib.metrics import crf_accuracy
 from keras_contrib.metrics import crf_marginal_accuracy

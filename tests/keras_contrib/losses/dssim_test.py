@@ -2,12 +2,12 @@ import pytest
 import numpy as np
 from keras_contrib.utils.test_utils import is_tf_keras
 from numpy.testing import assert_allclose
-from keras.layers import Conv2D
-from keras.models import Sequential
-from keras.optimizers import Adam
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.optimizers import Adam
 
-from keras.losses import sparse_categorical_crossentropy
-from keras import backend as K
+from tensorflow.keras.losses import sparse_categorical_crossentropy
+from tensorflow.keras import backend as K
 from keras_contrib.losses import DSSIMObjective
 
 allobj = []

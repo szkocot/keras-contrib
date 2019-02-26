@@ -12,17 +12,17 @@ from __future__ import division
 
 import warnings
 
-from keras.models import Model
-from keras.layers.core import Dense, Dropout, Activation
-from keras.layers.pooling import MaxPooling2D, GlobalAveragePooling2D
-from keras.layers import Input, Conv2D
-from keras.layers.merge import add
-from keras.layers.normalization import BatchNormalization
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Dense, Dropout, Activation
+from tensorflow.keras.layers import MaxPooling2D, GlobalAveragePooling2D
+from tensorflow.keras.layers import Input, Conv2D
+from tensorflow.keras.layers import add
+from tensorflow.keras.layers import BatchNormalization
 from keras.utils.layer_utils import convert_all_kernels_in_model
 from keras.utils.data_utils import get_file
 from keras.engine.topology import get_source_inputs
 from keras_applications.imagenet_utils import _obtain_input_shape
-import keras.backend as K
+import tensorflow.keras.backend as K
 
 TH_WEIGHTS_PATH = ('https://github.com/titu1994/Wide-Residual-Networks/'
                    'releases/download/v1.2/wrn_28_8_th_kernels_th_dim_ordering.h5')

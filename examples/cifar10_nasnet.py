@@ -1,15 +1,15 @@
 """
-Adapted from keras example cifar10_cnn.py
+Adapted from tensorflow.keras example cifar10_cnn.py
 Train NASNet-CIFAR on the CIFAR10 small images dataset.
 """
 from __future__ import print_function
-from keras.datasets import cifar10
-from keras.preprocessing.image import ImageDataGenerator
-from keras.utils import np_utils
-from keras.callbacks import ModelCheckpoint
-from keras.callbacks import ReduceLROnPlateau
-from keras.callbacks import CSVLogger
-from keras.optimizers import Adam
+from tensorflow.keras.datasets import cifar10
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.utils import np_utils
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.callbacks import ReduceLROnPlateau
+from tensorflow.keras.callbacks import CSVLogger
+from tensorflow.keras.optimizers import Adam
 from keras_contrib.applications.nasnet import NASNetCIFAR, preprocess_input
 
 import numpy as np

@@ -1,4 +1,4 @@
-from keras import backend as K
+from tensorflow.keras import backend as K
 
 # We import all keras backend functions here,
 # so that files in this repo can import both

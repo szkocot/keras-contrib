@@ -4,7 +4,7 @@ try:
     from tensorflow.python.ops import ctc_ops as ctc
 except ImportError:
     import tensorflow.contrib.ctc as ctc
-import keras.backend as K
+import tensorflow.keras.backend as K
 
 py_all = all
 

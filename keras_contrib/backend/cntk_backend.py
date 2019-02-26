@@ -1,4 +1,4 @@
-from keras.backend import cntk_backend as KCN
+from tensorflow.keras.backend import cntk_backend as KCN
 
 
 def moments(x, axes, shift=None, keep_dims=False):

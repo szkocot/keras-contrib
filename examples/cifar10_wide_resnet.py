@@ -10,10 +10,10 @@ from __future__ import absolute_import
 from __future__ import print_function
 from __future__ import division
 
-from keras.datasets import cifar10
-import keras.callbacks as callbacks
-import keras.utils.np_utils as kutils
-from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.datasets import cifar10
+import tensorflow.keras.callbacks as callbacks
+import tensorflow.keras.utils.np_utils as kutils
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 from keras_contrib.applications.wide_resnet import WideResidualNetwork
 

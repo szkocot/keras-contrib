@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
-from keras import backend as K
-from keras.layers import Input
-from keras.models import Sequential, Model
+from tensorflow.keras import backend as K
+from tensorflow.keras.layers import Input
+from tensorflow.keras.models import Sequential, Model
 from numpy.testing import assert_allclose
 
 from keras_contrib.layers import InstanceNormalization
@@ -15,7 +15,7 @@ input_shapes = [np.ones((10, 10)), np.ones((10, 10, 10))]
 
 
 def basic_instancenorm_test():
-    from keras import regularizers
+    from tensorflow.keras import regularizers
     layer_test(InstanceNormalization,
                kwargs={'epsilon': 0.1,
                        'gamma_regularizer': regularizers.l2(0.01),

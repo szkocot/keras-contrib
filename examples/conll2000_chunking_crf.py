@@ -8,8 +8,8 @@ from __future__ import division
 import numpy
 from collections import Counter
 
-from keras.models import Sequential
-from keras.layers import Embedding, Bidirectional, LSTM
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Embedding, Bidirectional, LSTM
 from keras_contrib.layers import CRF
 from keras_contrib.losses import crf_loss
 from keras_contrib.metrics import crf_viterbi_accuracy

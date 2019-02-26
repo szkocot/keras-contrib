@@ -9,10 +9,10 @@ try:
     from theano.tensor.nnet.nnet import softsign as T_softsign
 except ImportError:
     from theano.sandbox.softsign import softsign as T_softsign
-from keras.backend import theano_backend as KTH
-from keras.backend.common import image_data_format
-from keras.backend.theano_backend import _preprocess_conv2d_input
-from keras.backend.theano_backend import _postprocess_conv2d_output
+from tensorflow.keras.backend import theano_backend as KTH
+from tensorflow.keras.backend.common import image_data_format
+from tensorflow.keras.backend.theano_backend import _preprocess_conv2d_input
+from tensorflow.keras.backend.theano_backend import _postprocess_conv2d_output
 
 py_all = all
 

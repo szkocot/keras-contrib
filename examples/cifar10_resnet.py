@@ -1,18 +1,18 @@
 """
-Adapted from keras example cifar10_cnn.py and github.com/raghakot/keras-resnet
+Adapted from tensorflow.keras example cifar10_cnn.py and github.com/raghakot/keras-resnet
 Train ResNet-18 on the CIFAR10 small images dataset.
 
 GPU run command with Theano backend (with TensorFlow, the GPU is automatically used):
     THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python cifar10.py
 """
 from __future__ import print_function
-from keras.datasets import cifar10
-from keras.preprocessing.image import ImageDataGenerator
-from keras.utils import np_utils
-from keras.callbacks import ModelCheckpoint
-from keras.callbacks import ReduceLROnPlateau
-from keras.callbacks import CSVLogger
-from keras.callbacks import EarlyStopping
+from tensorflow.keras.datasets import cifar10
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.utils import np_utils
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.callbacks import ReduceLROnPlateau
+from tensorflow.keras.callbacks import CSVLogger
+from tensorflow.keras.callbacks import EarlyStopping
 from keras_contrib.applications.resnet import ResNet18
 
 import numpy as np

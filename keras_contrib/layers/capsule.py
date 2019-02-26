@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import
 
-from keras import backend as K
-from keras import activations
-from keras import regularizers
-from keras import initializers
-from keras import constraints
-from keras.layers import Layer
+from tensorflow.keras import backend as K
+from tensorflow.keras import activations
+from tensorflow.keras import regularizers
+from tensorflow.keras import initializers
+from tensorflow.keras import constraints
+from tensorflow.keras.layers import Layer
 from keras_contrib.utils.test_utils import to_tuple
 
 

@@ -1,5 +1,5 @@
 from keras_contrib import activations
-import keras.backend as K
+import tensorflow.keras.backend as K
 import numpy as np
 from numpy.testing import assert_allclose
 

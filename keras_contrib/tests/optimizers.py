@@ -2,10 +2,10 @@ from __future__ import print_function
 import numpy as np
 
 from keras_contrib.utils import test_utils
-from keras import optimizers
-from keras.models import Sequential
-from keras.layers import Dense, Activation
-from keras.utils import to_categorical
+from tensorflow.keras import optimizers
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Activation
+from tensorflow.keras.utils import to_categorical
 
 
 def get_test_data():

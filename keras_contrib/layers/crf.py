@@ -3,13 +3,13 @@ from __future__ import division
 
 import warnings
 
-from keras import backend as K
-from keras import activations
-from keras import initializers
-from keras import regularizers
-from keras import constraints
-from keras.layers import Layer
-from keras.layers import InputSpec
+from tensorflow.keras import backend as K
+from tensorflow.keras import activations
+from tensorflow.keras import initializers
+from tensorflow.keras import regularizers
+from tensorflow.keras import constraints
+from tensorflow.keras.layers import Layer
+from tensorflow.keras.layers import InputSpec
 
 from keras_contrib.losses import crf_loss
 from keras_contrib.metrics import crf_marginal_accuracy
@@ -90,7 +90,7 @@ class CRF(Layer):
     model that uses the CRF layer:
 
     ```python
-        from keras.models import load_model
+        from tensorflow.keras.models import load_model
         from keras_contrib.losses import import crf_loss
         from keras_contrib.metrics import crf_viterbi_accuracy
 

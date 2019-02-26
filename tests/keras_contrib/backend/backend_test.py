@@ -2,9 +2,9 @@ import pytest
 from numpy.testing import assert_allclose
 import numpy as np
 
-from keras import backend as K
-from keras.backend import theano_backend as KTH
-from keras.backend import tensorflow_backend as KTF
+from tensorflow.keras import backend as K
+from tensorflow.keras.backend import theano_backend as KTH
+from tensorflow.keras.backend import tensorflow_backend as KTF
 import keras_contrib.backend.theano_backend as KCTH
 import keras_contrib.backend.tensorflow_backend as KCTF
 import keras_contrib.backend.numpy_backend as KCNP

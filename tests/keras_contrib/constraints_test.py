@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
 
-from keras import backend as K
+from tensorflow.keras import backend as K
 from keras_contrib import constraints
 
 

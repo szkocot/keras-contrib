@@ -1,10 +1,10 @@
 import pytest
 import numpy as np
 
-from keras import regularizers
-from keras import constraints
-from keras.models import Sequential
-from keras import backend as K
+from tensorflow.keras import regularizers
+from tensorflow.keras import constraints
+from tensorflow.keras.models import Sequential
+from tensorflow.keras import backend as K
 from keras_contrib.layers import core
 from keras_contrib.utils.test_utils import layer_test
 from numpy.testing import assert_allclose

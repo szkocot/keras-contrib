@@ -1,9 +1,9 @@
 import numpy as np
-from keras.datasets import mnist
-from keras.layers import Activation
-from keras.layers import Dense
-from keras.models import Sequential
-from keras.utils import np_utils
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.layers import Activation
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.utils import np_utils
 
 np.random.seed(1337)
 

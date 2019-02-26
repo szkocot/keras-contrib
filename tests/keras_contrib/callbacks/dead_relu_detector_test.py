@@ -8,9 +8,9 @@ else:
     from StringIO import StringIO
 
 from keras_contrib import callbacks
-from keras.models import Sequential, Model
-from keras.layers import Input, Dense, Conv2D, Flatten, Activation
-from keras import backend as K
+from tensorflow.keras.models import Sequential, Model
+from tensorflow.keras.layers import Input, Dense, Conv2D, Flatten, Activation
+from tensorflow.keras import backend as K
 
 n_out = 11
 # with 1 neuron dead, 1/11 is just below the threshold of 10% with verbose = False

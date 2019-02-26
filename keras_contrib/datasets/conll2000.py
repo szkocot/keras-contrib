@@ -1,9 +1,9 @@
 from __future__ import print_function
 import numpy
-from keras.utils.data_utils import get_file
+from tensorflow.keras.utils.data_utils import get_file
 from zipfile import ZipFile
 from collections import Counter
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
 def load_data(path='conll2000.zip', min_freq=2):

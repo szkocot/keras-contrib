@@ -18,20 +18,20 @@ Implementation Adapted from: github.com/raghakot/keras-resnet
 from __future__ import division
 
 import six
-from keras.models import Model
-from keras.layers import Input
-from keras.layers import Activation
-from keras.layers import Reshape
-from keras.layers import Dense
-from keras.layers import Conv2D
-from keras.layers import MaxPooling2D
-from keras.layers import GlobalMaxPooling2D
-from keras.layers import GlobalAveragePooling2D
-from keras.layers import Dropout
-from keras.layers.merge import add
-from keras.layers.normalization import BatchNormalization
-from keras.regularizers import l2
-from keras import backend as K
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input
+from tensorflow.keras.layers import Activation
+from tensorflow.keras.layers import Reshape
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.layers import MaxPooling2D
+from tensorflow.keras.layers import GlobalMaxPooling2D
+from tensorflow.keras.layers import GlobalAveragePooling2D
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import add
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras import backend as K
 from keras_applications.imagenet_utils import _obtain_input_shape
 
 

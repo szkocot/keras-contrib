@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 import keras_contrib.backend as KC
-from keras import backend as K
+from tensorflow.keras import backend as K
 
 
 class DSSIMObjective:

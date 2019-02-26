@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import
 
-from keras.layers import Layer
+from tensorflow.keras.layers import Layer
 
 from keras_contrib import backend as KC
 from keras_contrib.utils.conv_utils import normalize_data_format

@@ -19,28 +19,28 @@ from __future__ import division
 
 import warnings
 
-from keras.models import Model
-from keras.layers import Input
-from keras.layers import Activation
-from keras.layers import Dense
-from keras.layers import Flatten
-from keras.layers import Dropout
-from keras.layers import BatchNormalization
-from keras.layers import MaxPooling2D
-from keras.layers import AveragePooling2D
-from keras.layers import GlobalAveragePooling2D
-from keras.layers import GlobalMaxPooling2D
-from keras.layers import Conv2D
-from keras.layers import SeparableConv2D
-from keras.layers import ZeroPadding2D
-from keras.layers import Cropping2D
-from keras.layers import concatenate
-from keras.layers import add
-from keras.regularizers import l2
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input
+from tensorflow.keras.layers import Activation
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import Flatten
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.layers import MaxPooling2D
+from tensorflow.keras.layers import AveragePooling2D
+from tensorflow.keras.layers import GlobalAveragePooling2D
+from tensorflow.keras.layers import GlobalMaxPooling2D
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.layers import SeparableConv2D
+from tensorflow.keras.layers import ZeroPadding2D
+from tensorflow.keras.layers import Cropping2D
+from tensorflow.keras.layers import concatenate
+from tensorflow.keras.layers import add
+from tensorflow.keras.regularizers import l2
 from keras.utils.data_utils import get_file
 from keras.engine.topology import get_source_inputs
 from keras_applications.imagenet_utils import _obtain_input_shape
-from keras import backend as K
+from tensorflow.keras import backend as K
 
 _BN_DECAY = 0.9997
 _BN_EPSILON = 1e-3

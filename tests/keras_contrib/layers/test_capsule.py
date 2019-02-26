@@ -4,9 +4,9 @@ from numpy.testing import assert_allclose
 
 from keras_contrib.utils.test_utils import layer_test
 from keras_contrib.utils.test_utils import is_tf_keras
-from keras import backend as K
+from tensorflow.keras import backend as K
 from keras_contrib.layers import capsule
-from keras.models import Sequential
+from tensorflow.keras.models import Sequential
 
 
 @pytest.mark.parametrize('num_capsule', [10, 20])

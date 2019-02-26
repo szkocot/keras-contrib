@@ -4,10 +4,10 @@ import numpy as np
 from numpy.testing import assert_allclose
 import inspect
 
-import keras
-from keras.layers import Input
-from keras import Model
-from keras import backend as K
+from tensorflow import keras
+from tensorflow.keras.layers import Input
+from tensorflow.keras import Model
+from tensorflow.keras import backend as K
 
 
 def get_test_data(num_train=1000, num_test=500, input_shape=(10,),

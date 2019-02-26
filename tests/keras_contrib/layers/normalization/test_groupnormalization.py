@@ -1,9 +1,9 @@
 import numpy as np
 import pytest
-from keras import backend as K
-from keras import regularizers
-from keras.layers import Input
-from keras.models import Sequential, Model
+from tensorflow.keras import backend as K
+from tensorflow.keras import regularizers
+from tensorflow.keras.layers import Input
+from tensorflow.keras.models import Sequential, Model
 from numpy.testing import assert_allclose
 
 from keras_contrib.layers import GroupNormalization

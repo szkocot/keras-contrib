@@ -4,11 +4,11 @@ Trains a Residual-of-Residual Network (WRN-40-2) model on the CIFAR-10 Dataset.
 Gets a 94.53% accuracy score after 150 epochs.
 '''
 
-import keras.callbacks as callbacks
-import keras.utils.np_utils as kutils
-from keras.datasets import cifar10
-from keras.preprocessing.image import ImageDataGenerator
-from keras.optimizers import Adam
+import tensorflow.keras.callbacks as callbacks
+import tensorflow.keras.utils.np_utils as kutils
+from tensorflow.keras.datasets import cifar10
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.optimizers import Adam
 
 from keras_contrib.applications import ResidualOfResidual
 

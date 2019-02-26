@@ -1,4 +1,4 @@
-import keras.backend as K
+import tensorflow.keras.backend as K
 
 
 def conv_output_length(input_length, filter_size,
@@ -46,7 +46,7 @@ def normalize_data_format(value):
 
     # Example
     ```python
-        >>> from keras import backend as K
+        >>> from tensorflow.keras import backend as K
         >>> K.normalize_data_format(None)
         'channels_first'
         >>> K.normalize_data_format('channels_last')

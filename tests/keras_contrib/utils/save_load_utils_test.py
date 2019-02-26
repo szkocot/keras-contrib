@@ -1,8 +1,8 @@
 import pytest
 import os
-from keras import backend as K
-from keras.layers import Input, Dense
-from keras.models import Model
+from tensorflow.keras import backend as K
+from tensorflow.keras.layers import Input, Dense
+from tensorflow.keras.models import Model
 from numpy.testing import assert_allclose
 
 from keras_contrib.utils.save_load_utils import save_all_weights, load_all_weights
